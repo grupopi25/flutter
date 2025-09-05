@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          padding: EdgeInsets.only(top: 60),
+          padding: EdgeInsets.only(top: 80),
           width: double.infinity,
           height: double.infinity,
           color: Colors.black,
@@ -100,7 +100,7 @@ class MainApp extends StatelessWidget {
                       Row(
                         children: [
                           Container(
-                            width: 400,
+                            width: 350,
                             height: 50,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
@@ -109,7 +109,7 @@ class MainApp extends StatelessWidget {
                             margin: EdgeInsets.only(
                               left: 20,
                               right: 20,
-                              top: 50,
+                              top: 180,
                             ),
                             child: Center(
                               child: Text(
@@ -127,7 +127,7 @@ class MainApp extends StatelessWidget {
                       Row(
                         children: [
                           Container(
-                            width: 400,
+                            width: 350,
                             height: 50,
 
                             decoration: BoxDecoration(
@@ -169,7 +169,7 @@ class MainApp extends StatelessWidget {
                   ),
                 ],
               ),
-              Padding(padding: EdgeInsetsGeometry.only(top: 110)),
+              Padding(padding: EdgeInsetsGeometry.only(top: 60)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
